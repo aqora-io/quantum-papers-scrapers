@@ -1,6 +1,6 @@
-# Scrapers for Quantum Papers
+# Scrapers for Quantum News
 
-Here, you can find various scrapers used to automatically gather the latest news articles related to quantum computing and quantum physics.
+Welcome to the `/scrapers` directory! Here, you can find various scrapers used to automatically gather the latest blog posts and news articles related to quantum computing and quantum physics.
 
 ## Overview
 
@@ -28,4 +28,8 @@ To contribute a new scraper:
    ```bash
    python scrape.py NAME_OF_NEW_SCRAPER testtest testtest
    ```
-   This command will execute your scraper and attempt to post stories to [https://aqora.io/discussions/research-papers](https://aqora.io/discussions/research-papers). Make sure to replace `NAME_OF_NEW_SCRAPER` with the key you added to the `all_scrapers` dictionary.
+   This command will execute your scraper and attempt to post stories to [https://news.aqora-internal.io](https://news.aqora-internal.io). Make sure to replace `NAME_OF_NEW_SCRAPER` with the key you added to the `all_scrapers` dictionary.
+
+## Contribution Guidelines
+
+Please follow our contribution guidelines to ensure consistency and quality of the scrapers. For more details, refer to the [contributing guidelines](../CONTRIBUTING.md).

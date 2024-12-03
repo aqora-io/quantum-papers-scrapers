@@ -1,0 +1,19 @@
+[project]
+name = "quantum-papers-scrapers"
+version = "0.1.0"
+description = "Here, you can find various scrapers used to automatically gather the latest news articles related to quantum computing and quantum physics. "
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+  { name = "Jannes Stubbemann", email = "jannes.stubbemann@gmail.com" },
+  { name = "Julian Popescu", email = "hi@julian.dev" },
+  { name = "Antoine Chauvin", email = "antoine@aqora.io" },
+  { name = "Angel Dijoux", email = "angel.dijoux@yahoo.com" },
+]
+requires-python = ">=3.12"
+dependencies = ["beautifulsoup4>=4.12.3", "requests>=2.32.3"]
+
+[project.urls]
+Homepage = "https://aqora.io/discussions/research-papers"
+Repository = "https://github.com/aqora-io/quantum-papers-scrapers.git"
+Issues = "https://github.com/aqora-io/quantum-papers-scrapers/issues"

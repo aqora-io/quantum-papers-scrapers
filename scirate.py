@@ -43,7 +43,7 @@ def scrape_scirate() -> list[Paper] :
                 authors = authors_element.get_text().strip() if authors_element else ''
                 date = " ".join(date_element.get_text().strip().split()[:3]) if date_element else ''
                 abstract = abstract_element.get_text().strip() if abstract_element else ''
-                arxiv_link = "https://arxiv.org/abs/{link.split('/')[-1]}"
+                arxiv_link = f"https://arxiv.org/abs/{link.split('/')[-1]}"
 
                 description = f"{authors} ({date}). \n\n**Abstract:** {abstract} \n\nArxiv: {arxiv_link}"
 

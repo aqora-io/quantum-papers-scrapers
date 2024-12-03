@@ -75,7 +75,8 @@ class PapersPoster:
                 "forumId": forum_id,
                 "input": {
                     "title": title,
-                    "description": description, 
+                    "description": description,
+                    "url": url
                 }
             }
         } 

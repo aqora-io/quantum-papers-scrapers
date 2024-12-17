@@ -36,7 +36,7 @@ class PapersPoster:
             "query": f"""query {{
                 forumBySlug(slug: "{self.forum_slug}") {{
                     id
-                    topics(order: NEWEST, last: 50) {{
+                    topics(order: NEWEST, first: 100) {{
                         nodes {{ title }}
                     }}
                 }}

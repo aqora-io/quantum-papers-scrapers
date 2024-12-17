@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 
 from type import Paper
 
-MIN_SCITES = 20
+MIN_SCITES = 25
 
 def scrape_scirate() -> list[Paper] :
     url = 'https://scirate.com/arxiv/quant-ph?range=7'
